@@ -3,254 +3,165 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tunisia</title>
+    <title>Bargou GYM</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="img/R.jpg" href="tn">
+    <link rel="icon" href="img/unnamed-removebg-preview.png" type="image/png">
 </head>
 <body>
-<div class="content">
-    <header>
-        <div class="btn">
-            <button class="bn"  onclick="home()">
-                <img src="img/icons8-home-48 (1).png" alt="" width="20px" class="im">Home
-            </button>
-            <button class="bn" onclick="inf()"><img src="img/icons8-about-52.png" alt="" width="20px" class="im">About</button>
-            <button class="bn"><img src="img/icons8-team-24.png" alt="" width="20px" class="im">Team</button>
-        </div>
-    </header>
-    <br>
-    <hr>
-    <nav id="flag">
-        <center>
-        <img src="img/R.jpg" alt="" width="60%" max-width="100%" class="R">
+    <center>
+    <header id="content">
+        <img class="logo" src="img/unnamed-removebg-preview.png" alt="" width="70px">
         <br>
         <hr>
-        <h1 id="title">Tunisia</h1>
-        </center>
-    </nav>
-    <div class="info"  id="infoo" style="display:none;">
-        <center>
-        <img src="img/R.jpg" alt="" width="60%" max-width="100%" class="R">
-        <h1 id="title">Tunisia</h1>
-        <hr>
-        </center>
-        <h2>About Tunisia</h2>
-        <p>Tunisia, officially the Republic of Tunisia, is the northernmost country in Africa. It is a part of the Maghreb region of North Africa, bordered by Algeria to the west and southwest, Libya to the southeast, and the Mediterranean Sea to the north and east. Tunisia covers an area of 163,610 square kilometers (63,170 square miles) and has a population of approximately 12 million people. The capital and largest city is Tunis.</p>
-        <p>Tunisia has a rich history that dates back to ancient times, with influences from various civilizations including the Phoenicians, Romans, Byzantines, Arabs, and French. The country gained independence from France in 1956 and has since developed into a republic with a diverse economy that includes agriculture, mining, manufacturing, and tourism.</p>
-        <p>Tunisia is known for its beautiful Mediterranean coastline, historic sites such as Carthage and El Djem, and vibrant culture that blends Arab, Berber, and European influences. The official language is Arabic, and French is also widely spoken. Tunisia has made significant strides in education and healthcare and continues to work towards economic development and political stability.</p>
-
-    </div>
-    <div id="genn">
-    <div class="mn">
-        <img src="img/fotolia_125056280_subscription_monthly_m.jpg" alt="" width="200px" >
-        <div class="overlay">
-            <h4>Famous Monuments in Tunisia</h4>
-            <button class="ms" onclick="fm()"><img src="img/icons8-view-100.png" alt="" width="11px" class="i">View More</button>
+        <div class="members" id="mem">
+        <div class="mm">
+            <img class="mem" src="img/icons8-team-50.png" alt="" width="50px">
+            <h1>Bargou Gym member list</h1>
         </div>
-    </div>
-        <div class="mn">
-        <img src="img/mekla.webp" alt="" width="200px" >
-        <div class="overllay">
-            <h4>The best food in Tunisia</h4>
-            <button class="ms" onclick="food()"><img src="img/icons8-view-100.png" alt="" width="11px" class="i">View More</button>
+        <nav>
+            <img class="sec" src="img/icons8-profile-50 (1).png" alt="" width="50px">
+            <h1>Feres Dridi</h1>
+            <button onclick="ceo()"><p class="det">Owner Ship</p> <img class="dett" src="img/icons8-gym-50.png" alt=""></button>
+        </nav>
+        <div class="add">
+            <button onclick="mem()"><img src="img/icons8-add-48 (2).png" alt="" width="24px">Add</button>
         </div>
-    </div>
-        <div class="mn">
-        <img src="img/hannibal.jpg" alt="" width="200px" height="245px" class="hh">
-        <div class="overlay">
-            <h4>Famous Monuments in Tunisia</h4>
-            <button class="ms" onclick="bc()"><img src="img/icons8-view-100.png" alt="" width="11px" class="i">View More</button>
         </div>
-    </div>
-    </div>
-<div id="fm">
-<div class="fm">
-    <center>
-    <img src="img/Amphitheatre-of-El-Djem.jpg" alt="" width="80%" class="R">
-    </center>
-    <hr>
-    <h1 class="titre">Amphitheatre of El Djem</h1>
-    <ul>
-    <li><p>One of the largest Roman amphitheatres in the world</p></li>
-    <li><p>UNESCO World Heritage Site</p></li>
-    <li><p>Very well preserved</p></li>
-    </ul>
-</div>
-<div class="fm">
-    <center>
-    <img src="img/Sidi-Bou-Said.jpg" alt="" width="80%" class="R">
-    </center>
-    <hr>
-    <h1 class="titre">Sidi Bou Said</h1>
-    <ul>
-    <li><p>Iconic blue-and-white village</p></li>
-    <li><p>Andalusian architecture</p></li>
-    <li><p>Very popular tourist spot</p></li>
-    </ul>
-</div>
-<div class="fm">
-    <center>
-    <img src="img/The-Great-Mosque-of-Kairouan-scaled.jpg" alt="" width="80%" class="R">
-    </center>
-    <hr>
-    <h1 class="titre">Kairouan Great Mosque</h1>
-    <ul>
-    <li><p>One of the oldest and most important mosques in the Islamic world</p></li>
-    <li><p>UNESCO World Heritage Site</p></li>
-    <li><p>Spiritual capital of the Maghreb</p></li>
-    </ul>
-</div>
-</div>
-<div class="food" id="food">
-<div class="fm">
-    <center>
-    <img src="img/cosskk.jfif" alt="" width="80%" class="R">
-    </center>
-    <hr>
-    <h1 class="titre">Couscous</h1>
-    <ul>
-    <li><p>The most famous Tunisian dish, usually served with fish, chicken, or lamb. Rich, flavorful, and full of spices.</p></li>
-    </ul>
-</div>
-<div class="fm">
-    <center>
-    <img src="img/ija.webp" alt="" width="80%" class="R">
-    </center>
-    <hr>
-    <h1 class="titre">Ojja Merguez</h1>
-    <ul>
-    <li><p>A delicious tomato and pepper stew cooked with merguez sausages and eggs. Perfect with fresh bread.</p></li>
-    </ul>
-</div>
-<div class="fm">
-    <center>
-    <img src="img/lablaby.webp" alt="" width="80%" class="R">
-    </center>
-    <hr>
-    <h1 class="titre">Lablabi</h1>
-    <ul>
-    <li><p>A spicy chickpea soup mixed with harissa, olive oil, garlic, and pieces of bread. Very popular in winter.</p></li>
-    </ul>
-</div>
-<div class="fm">
-    <center>
-    <img src="img/brika.webp" alt="" width="80%" class="R">
-    </center>
-    <hr>
-    <h1 class="titre">Brik à l’Œuf</h1>
-    <ul>
-    <li><p>A crispy thin pastry filled with egg, tuna, parsley, and capers. A must-try street food in Tunisia.</p></li>
-
-    </ul>
-</div>
-</div>
-<div class="bc" id="bc">
-    <div class="fm">
-        <div class="fm">
-    <center>
-    <img src="img/OIP.webp" alt="" width="80%" class="R">
-    </center>
-    <hr>
-    <h1 class="titre">Hannibal Barca</h1>
-    <ul>
-    <li><p>Famous for crossing the Alps with elephants to surprise the Romans.</p></li>
-    <li><p>One of the greatest military commanders in world history.</p></li>
-    <li><p>Led Carthage during the Punic Wars against Rome.</p></li>
-    <li><p>Symbol of intelligence, strategy, and resistance.</p></li>
-
-    </ul>
-    </div>
-    </div>
-    <div class="fm">
-        <div class="fm">
-    <center>
-    <img src="img/Barbara-Strozzi.webp" alt="" width="80%" class="R">
-    </center>
-    <hr>
-    <h1 class="titre">Elissa</h1>
-    <ul>
-        <li><p>Legendary Phoenician queen who founded the city of Carthage.</p></li>
-        <li><p>A symbol of leadership, courage, and innovation.</p></li>
-        <li><p>Represented as one of the greatest female leaders in Mediterranean history.</p></li>
-    </ul>
-    </div>
-    </div>
-    <div class="fm">
-        <div class="fm">
-    <center>
-    <img src="img/ibnu-khaldun_169.jpg" width="80%" class="R">
-    </center>
-    <hr>
-    <h1 class="titre">Ibn Khaldun</h1>
-    <ul>
-        <li><p>Tunisian historian, sociologist, philosopher, economist.</p></li>
-        <li><p>Wrote Muqaddimah (المقدمة) — considered the first major work on sociology and the study of civilizations.</p></li>
-        <li><p>Inspired modern social science and economics worldwide.</p></li>
-    </ul>
-    </div>
-    </div>
-</div>
-
-<hr>
-<footer>
-<center>
-    <p>© 2025 Tunisia. All rights reserved to 2 informatique.</p>
+        <div class="ajouter" id="addd">
+            <button class="X" onclick="X()">X</button>
+        <div class="mm">
+            <img class="mem" src="img/icons8-add-member-48.png" alt="" width="50px">
+            <h1>Add new member</h1>
+        </div>
+            <section>
+            <form action="" method="get">
+              <div class="form">
+                <label for="name"><div class="la"><img src="img/icons8-name-48.png" alt="" width="30px"><strong>Full Name</strong></div></label>
+                <input type="text" required>
+                <label for="date"><div class="la"><img src="img/icons8-date-48.png" alt="" width="30px"><strong>Date</strong></div></label>
+                <input type="date" name="date" id="date"  required>
+                <label for="tel"><div class="la"><img src="img/icons8-phone-48.png" alt="" width="30px"><strong>Phone Nember</strong></div></label>
+                <input type="tel" name="tel" id="date"  required>
+                <label for="sex"><div class="la"><img src="img/icons8-sex-48.png" alt="" width="30px"><strong>Sex</strong></div></label>
+                <select class="sel" id="sex"  required>
+                    <option value="men">Men</option>
+                    <option value="men">Women</option>
+                </select>
+                </div>
+                <br>
+                <br>
+                <hr>
+                <br>
+                <input type="submit" value="Submit" id="suv">
+                <input type="button" value="Cancel" onclick="window.location.href='/'" id="suv">
+                
+            </form>
+            </section>
+            </div>
+          <div class="detail" id="det">
+            <div class="person">
+              <button class="XX" id="X" onclick="XX()">X</button>
+              <img src="img/2025 Vision Board.jfif" alt="" width="98%" class="banner">
+            <img class="imgowner" src="img/Screenshot_20260311-005331_Facebook.jpg" alt="" width="50%" height="auto">
+            </div>
+            <div class="info">
+            <div class="information">
+            <h1><div class="laa"><img src="img/icons8-name-48.png" alt="" width="50px"><strong>Fares Dridi</strong></div></h1>
+            <h1><div class="laa"><img src="img/icons8-rating-48.png" alt="" width="50px"><strong>founder</strong></div></h1>
+            </div>
+            <div class="information">
+            <h1><div class="laa"><img src="img/icons8-phone-48.png" alt="" width="40px"><span>+216 </span><strong>24146746</strong></div></h1>
+            </div>
+            </div>
+          </div>
+          <div class="detail" id="dt">
+            <div class="person">
+              <button class="XX" id="X" onclick="XX()">X</button>
+              <img src="img/2025 Vision Board.jfif" alt="" width="98%" class="banner">
+            <img class="imgoper" src="img/820d7848bc397215470463b51e6ac26c-removebg-preview (1).png" alt="" width="30%">
+            </div>
+            <div class="info">
+            <div class="information">
+            <h1><div class="laa"><img src="img/icons8-name-48.png" alt="" width="50px"><strong>Fares Dridi</strong></div></h1>
+            <h1><div class="laa"><img src="img/icons8-rating-48.png" alt="" width="50px"><strong>founder</strong></div></h1>
+            </div>
+            <div class="information">
+            <h1><div class="laa"><img src="img/icons8-phone-48.png" alt="" width="40px"><span>+216 </span><strong>24146746</strong></div></h1>
+            </div>
+            </div>
+          </div>
+    </header>
 </center>
-</footer>
+    <div id="loading">
+  <div class="spinner"></div>
 </div>
 
-<div id="loader">
-  <div class="spinner"><img src="img/R.jpg" alt=""></div>
-</div>
+
+
 
 <script>
 
-const title = document.getElementById("title");
-const text = title.innerText;
-title.innerHTML = "";
-
-text.split("").forEach(char => {
-    title.innerHTML += `<span class="letter">${char}</span>`;
-});
-
-
-function inf(){
-    document.getElementById("infoo").style.display = "block";
-    document.getElementById("genn").style.display = "none";
-    document.getElementById("flag").style.display = "none";
-}
+  function mem() {
+    document.getElementById('mem').style.display = 'none';
+    document.getElementById('addd').style.display = 'block';
+  }
+  function ceo() {
+    document.getElementById('mem').style.display = 'none';
+    document.getElementById('det').style.display = 'block';
+  }
 
 
-function home(){
-    document.getElementById("infoo").style.display = "none";
-    document.getElementById("genn").style.display = "block";
-    document.getElementById("flag").style.display = "block";
-    document.getElementById("fm").style.display = "none";
-    document.getElementById("food").style.display = "none";
-    document.getElementById("bc").style.display = "none";
-}
-function fm(){
-    document.getElementById("fm").style.display = "block";
-    document.getElementById("genn").style.display = "none";
-}
-function bc(){
-    document.getElementById("bc").style.display = "block";
-    document.getElementById("genn").style.display = "none";
-}
-function food(){
-document.getElementById("food").style.display = "block";
-document.getElementById("food").style.top = "0px";
-document.getElementById("genn").style.display = "none";
-}
-window.addEventListener("load", function () {
-    document.getElementById("loader").style.display = "none";
-    document.getElementById("content").style.display = "block";
+  function X() {
+    document.getElementById('mem').style.display = 'block';
+    document.getElementById('addd').style.display = 'none';
+  }
+  function XX() {
+    document.getElementById('mem').style.display = 'block';
+    document.getElementById('det').style.display = 'none';
+  }
+
+
+  window.addEventListener('load', () => {
+    setTimeout(() => {
+      document.getElementById('loading').style.display = 'none';
+      document.getElementById('content').style.display = 'block';
+    }, 1500); // 1.5 seconds
   });
 
+
+  const form = document.querySelector('#addd form');
+  form.addEventListener('submit', function(e) {
+    e.preventDefault();
+
+    const fullName = form.querySelector('input[type="text"]').value;
+    const sex = form.querySelector('#sex').value;
+    const logoSrc = sex === 'men' ? 'img/icons8-profile-50 (1).png' : 'img/icons8-profile-50-female.png';
+
+    const newMember = {
+      name: fullName,
+      logo: logoSrc
+    };
+
+
+    const savedMembers = JSON.parse(localStorage.getItem('members')) || [];
+    savedMembers.push(newMember);
+    localStorage.setItem('members', JSON.stringify(savedMembers));
+
+    const nav = document.createElement('nav');
+    nav.innerHTML = `
+      <img class="sec" src="${logoSrc}" alt="" width="50px">
+      <h1>${fullName}</h1>
+      <button><p class="det">Details</p> <img class="dett" src="img/icons8-detail-50.png" alt=""></button>
+    `;
+    document.getElementById('mem').appendChild(nav);
+
+    form.reset();
+    X();
+function changePage(){
+    document.getElementById("mem").classList.remove("active");
+    document.getElementById("addd").classList.add("active");
+}
+  });
 </script>
-
-
 </body>
-
 </html>
-
